@@ -17,7 +17,7 @@ RUN curl -sSL https://rvm.io/mpapis.asc | gpg --import - && \
   /bin/bash -l -c "rvm requirements" && \
   /bin/bash -l -c "echo insecure > ~/.curlrc" && \
   apt-get -yq install ca-certificates && \
-  /bin/bash -l -c "rvm install 2.0" && \
+  /bin/bash -l -c "rvm install 2.4.1" && \
   /bin/bash -l -c "gem install bundler --no-ri --no-rdoc" && \
   /bin/bash -l -c "gem install rb-inotify" && \
   /bin/bash -l -c "gem install jekyll"

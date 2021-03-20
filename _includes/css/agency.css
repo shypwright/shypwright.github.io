@@ -176,7 +176,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Brush Script MT","Helvetica Neue",Helvetica,Arial,cursive;
+    /*font-family: Beirut,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        text-transform: uppercase;
+    font-family: Beirut,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
     color: #{{ site.color.primary }};
 }
 
